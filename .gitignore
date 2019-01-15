@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/mexdm-java-api-sdk.iml
+.idea
+src/main/java/com/mexdm/dax/sdk/.DS_Store
+src/main/java/com/mexdm/dax/sdk/openapi/perpetual/.DS_Store
+src/main/java/com/mexdm/dax/sdk/openapi/perpetual/service/.DS_Store
+src/test/java/com/mexdm/dax/sdk/.DS_Store
+src/test/java/com/mexdm/dax/sdk/openapi/.DS_Store
+target/
+mexdm-java-api-sdk.iml
