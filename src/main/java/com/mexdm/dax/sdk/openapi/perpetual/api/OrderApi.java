@@ -3,6 +3,7 @@ package com.mexdm.dax.sdk.openapi.perpetual.api;
 import com.mexdm.dax.sdk.openapi.perpetual.domain.DepthOrderBook;
 import com.mexdm.dax.sdk.openapi.perpetual.domain.OrderBook;
 import com.mexdm.dax.sdk.openapi.perpetual.domain.OrderRequest;
+import com.mexdm.dax.sdk.openapi.perpetual.domain.ServerTimeDTO;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
@@ -20,6 +21,13 @@ import java.util.Map;
  * @date 2019-01-15
  */
 public interface OrderApi {
+    /**
+     * 获取服务端时间
+     *
+     * @return
+     */
+    @GET("perpetual/public/time")
+    Call<ServerTimeDTO> getTime();
 
     /**
      * 获取订单列表
